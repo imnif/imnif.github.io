@@ -8,4 +8,7 @@ This is a good tool to have after you've created a wallet.  You can rent eos dir
 http://btcminer.one redirects to this github site.
 https://soveos.github.io/BitcoinMiner/
 
+Also you can find new version here at 
+https://imnif.github.io
+
 
