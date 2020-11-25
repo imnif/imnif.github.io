@@ -121,7 +121,7 @@ function set_circle_element(elm, value) {
                     function update_ticker() {
                         autominer_cnt++;
 
-                        if (autominer_cnt == 51) autominer_cnt = 1;
+                        if (autominer_cnt == 21) autominer_cnt = 1;
                         //---
                         for (var i = 1; i <= 20; i++) {
                             var therect = 'rect' + i;
@@ -227,7 +227,7 @@ function set_circle_element(elm, value) {
                         
 
                         var myRange = document.getElementById('myRange').value;
-                          //alert("myRange: " + myRange);
+                        //alert("myRange: " + myRange);
 
                          var action = {
 
@@ -547,27 +547,18 @@ function set_circle_element(elm, value) {
 
                     ScatterJS.plugins(new ScatterEOS());
 
-                       var scatter_host = 'eos.greymass.com';
-                    //var scatter_host = 'api.main.alohaeos.com';
-                    
-
-
-
+                    //var scatter_host = 'eos.greymass.com';
+                    var scatter_host = 'api.main.alohaeos.com';
+                    /*
                                 const network = ScatterJS.Network.fromJson({
                                     blockchain: 'eos',
                                     chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
-                                    host: 'nodes.get-scatter.com',
+                    //                host: 'nodes.get-scatter.com',
                                     host: 'eos.greymass.com',
                                     port: 443,
                                     protocol: 'https'
                                 });
-                    
-
-
-
-
-
-
+                    */
                     const network = ScatterJS.Network.fromJson({
                         blockchain: 'eos',
                         chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
